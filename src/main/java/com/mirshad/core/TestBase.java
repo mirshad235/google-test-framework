@@ -20,7 +20,7 @@ public class TestBase {
 	@AfterClass
 	
 	public void tearDown() {
-		if(null == driver)
+		if(null != driver)
 			driver.quit();
 	}
 
